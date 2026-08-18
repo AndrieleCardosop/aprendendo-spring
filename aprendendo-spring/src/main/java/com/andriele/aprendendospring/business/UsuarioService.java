@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor // gera um construtor somente com campos que contem o private final
 
 public class UsuarioService {
-
     private final UsuarioRepository usuarioRepository; // final decla que é imutável
     private final PasswordEncoder passwordEncoder;
 
